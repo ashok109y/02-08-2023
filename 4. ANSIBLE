@@ -36,7 +36,7 @@ sudo -i
 sudo -i
 
 2. passwd root #to login to worker nodes
-3. vim /etc/ssh/sshd_config (uncomment: 38 , no=yes: 63)
+3. vim /etc/ssh/sshd_config (#=remove: 38 , no=yes: 63)
 4. systemctl restart sshd
 5. systemctl status sshd
 
