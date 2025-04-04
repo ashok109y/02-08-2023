@@ -89,7 +89,7 @@ this commands will be overrided.
 
 ansible all -a "ls"
 ansible all -a "touch abc.txt"
-ansible all -a "yum install git -y"
+ansible all -a "yum install git -y"   And UBUNTU sever:  ansible all -i file1 -ba "apt install git"
 ansible all -a "yum install java-1.8.0-openjdk -y"
 ansible all -a "yum install httpd -y"
 ansible all -a "systemctl start httpd"
